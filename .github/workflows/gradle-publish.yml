@@ -26,8 +26,6 @@ jobs:
 
       - uses: Kir-Antipov/mc-publish@v3.3
         with:
-          curseforge-id: 538560
-          curseforge-token: ${{ secrets.CF_API_TOKEN }}
           loaders: |
             forge
           game-versions: |
